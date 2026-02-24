@@ -1,0 +1,37 @@
+comando para ler um numero do usuario 
+
+    addi t0, zero, 4   # escolhe a operacao de leitura de inteiro (4)
+    ecall              # efetua a operacao de leitura de inteiro
+
+comando para escrever um numeo                                                ----> a escrita e leitura sempre parte o registrador a0
+
+    addi t0, zero, 1   # escolhe a operacao de escrita de inteiro (1)
+    ecall              # efetua a operacao de escrita de inteiro
+
+
+Comando addi: soma um nummero (terceiro parametro) a um registrador (primeiro parametro) segundo parametro sempre  0 por enquanto
+Comando add: soma o valor de dois registradores para um terceiro
+
+Alguns outros comandos:
+Instrução 	Funcionalidade
+add 	    Soma dois registradores
+sub 	    Subtrai dois registradores
+and 	    Faz a operação lógica E
+or 	        Faz a operação lógica OU
+xor 	    Faz a operação lógica OU exclusivo
+
+    As operacoes logicas fazem comparacoes bit a bit ao inves de retornar 0 ou 1 como em linguagens de alto nivel
+    ex:
+        10 = 1010
+        2 =  0010
+
+        and ->  1010 X 0010 = 0010 = 2
+        or ->   1010 X 0010 = 1010 = 10
+        xor ->  1010  X 0010 = 1000 = 8
+
+sll -> igual a multiplicar, deslocar x bits = multipicar por 2^x 
+srl -> igual  a dividir, deslocar x bits = dividir por  2^x
+
+Registradores:
+    t = temporarios
+    s  = salvos
