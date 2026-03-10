@@ -1,3 +1,5 @@
+# le umm numero  e imprime o  resultado  da divisao e  multiplicacao por 4
+
 main:
     addi t0, zero, 4      # # t0 = 4 e a0 = num
     ecall                 # chamamos a leitura
