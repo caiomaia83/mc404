@@ -1,4 +1,5 @@
 # agora o loop vai para quando o input for igual a 0 
+# a primeira versao imprtimia 2 quando o inputoera -0 depois adicionaos o beq para qy=uye isso nao aconteca mais
 
 main:
 
