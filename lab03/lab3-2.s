@@ -1,3 +1,7 @@
+# utilizei  a solucao do ultimo exercicio mas poderiamos  ter feito um and com 3 ( 0011 ) um numero so nao e multiplod e 4 se  tiver alguma dessas  2 casas preenchidas
+# depois poderiamos fazer uma branch,, se o resultado fosse 0 o  num e multiplo e se fosse  diferente  nao eh
+
+
 main: 
 
     # vamos ler  uma enntrada do usuario

@@ -19,7 +19,7 @@ main:
     # movemos o codificado para o aa0
     add a0, zero, s2
 
-    addi t0, zero, 1
+    addi t0, zero, 1    
     ecall
 
     ret
