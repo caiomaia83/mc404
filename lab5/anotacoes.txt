@@ -1,0 +1,19 @@
+    .data
+a:
+    .word 10
+
+
+pode ser entendido como int a = 10
+
+.data
+vetor:
+    .word 10
+    .word 20
+    .word 30
+podem seer separados tambem por ,
+
+sao como ponteiros
+
+A instrução lw carrega uma palavra (32 bits ou 4 bytes) da memória a partir da posição indicada pela soma do segundo registrador com o número (imediato) a seguir.
+ É importante destacar que, ao ler uma palavra, o endereço indicado deve estar numa posição de memória múltipla de 4 
+ (você pode utilizar endereços que não sejam múltiplos de 4, mas isso tem o potencial de fazer seu processador ficar muito mais lento nesses acessos).
